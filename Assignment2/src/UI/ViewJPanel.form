@@ -203,7 +203,7 @@
                               <Component id="jScrollPane2" min="-2" pref="178" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace pref="130" max="32767" attributes="0"/>
+                      <EmptySpace pref="123" max="32767" attributes="0"/>
                   </Group>
                   <Component id="jSeparator2" max="32767" attributes="0"/>
               </Group>

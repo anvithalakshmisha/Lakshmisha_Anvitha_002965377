@@ -19,7 +19,6 @@ public class MainJFrame extends javax.swing.JFrame {
     
     public MainJFrame() {
         initComponents();
-        setSize(800,500);
         
         fleet = new FleetDirectory();
     }
@@ -77,7 +76,7 @@ public class MainJFrame extends javax.swing.JFrame {
                 .addComponent(btnCreate)
                 .addGap(43, 43, 43)
                 .addComponent(btnView)
-                .addContainerGap(515, Short.MAX_VALUE))
+                .addContainerGap(508, Short.MAX_VALUE))
         );
 
         ControlPaneLayout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {btnCreate, btnView});
@@ -94,7 +93,7 @@ public class MainJFrame extends javax.swing.JFrame {
             WorkPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, WorkPaneLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(lblWelcome, javax.swing.GroupLayout.DEFAULT_SIZE, 888, Short.MAX_VALUE)
+                .addComponent(lblWelcome, javax.swing.GroupLayout.DEFAULT_SIZE, 1338, Short.MAX_VALUE)
                 .addContainerGap())
         );
         WorkPaneLayout.setVerticalGroup(
@@ -102,7 +101,7 @@ public class MainJFrame extends javax.swing.JFrame {
             .addGroup(WorkPaneLayout.createSequentialGroup()
                 .addGap(35, 35, 35)
                 .addComponent(lblWelcome)
-                .addContainerGap(846, Short.MAX_VALUE))
+                .addContainerGap(839, Short.MAX_VALUE))
         );
 
         SplitPane.setRightComponent(WorkPane);
@@ -115,7 +114,7 @@ public class MainJFrame extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(SplitPane)
+            .addComponent(SplitPane, javax.swing.GroupLayout.DEFAULT_SIZE, 900, Short.MAX_VALUE)
         );
 
         pack();

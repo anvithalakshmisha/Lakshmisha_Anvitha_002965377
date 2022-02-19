@@ -23,13 +23,10 @@ public class ViewJPanel extends javax.swing.JPanel {
      * Creates new form ViewJPanel
      */
     FleetDirectory fleetDirec;
-    Fleet fleet;
 
     public ViewJPanel(FleetDirectory fleetDirec) {
         initComponents();
         this.fleetDirec = fleetDirec;
-        fleet = new Fleet();
-        setSize(800, 1000);
 
         populateTable();
 
@@ -401,7 +398,7 @@ public class ViewJPanel extends javax.swing.JPanel {
                                 .addComponent(lblSearchResult)
                                 .addGap(26, 26, 26)
                                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 178, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addContainerGap(130, Short.MAX_VALUE))
+                        .addContainerGap(123, Short.MAX_VALUE))
                     .addComponent(jSeparator2)))
         );
     }// </editor-fold>//GEN-END:initComponents
