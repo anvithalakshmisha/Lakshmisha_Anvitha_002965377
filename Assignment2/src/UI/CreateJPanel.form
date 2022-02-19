@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblCreateCar" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblOr" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblMaufactureYear" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblCarManufacturer" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblModel" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblSeatCount" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblModelNumber" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblSerialNumber" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblAvaiablilty" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblMaintenanceExpired" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblCity" linkSize="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblFileLocation" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="chkboxExpired" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="chkboxAvailability" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtCity" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtModel" linkSize="1" alignment="0" min="-2" pref="250" max="-2" attributes="0"/>
+                                  <Component id="txtCarManufacturer" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtManufactureYear" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtSeatCount" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtModelNumber" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtSerialNumber" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnBrowse" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="txtFileUploadLocation" linkSize="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="181" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="btnSave" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="336" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+              <Component id="lblCreateCar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="126" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtModel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblModel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtCarManufacturer" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblCarManufacturer" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtManufactureYear" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblMaufactureYear" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtSeatCount" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblSeatCount" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblModelNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtModelNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblSerialNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtSerialNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtCity" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblCity" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="lblAvaiablilty" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="lblMaintenanceExpired" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="chkboxAvailability" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="chkboxExpired" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="16" max="32767" attributes="0"/>
+              <Component id="btnSave" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+              <Component id="lblOr" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtFileUploadLocation" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnBrowse" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblFileLocation" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="113" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblCreateCar">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Lucida Grande" size="18" style="3"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Create car directory"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblModel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter the car model :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCarManufacturer">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter the car manufactrer: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMaufactureYear">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter the car manufacture year :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSeatCount">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter the seat count :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblModelNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter the model number :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSerialNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter the serial number :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAvaiablilty">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Is the car available ?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtModel">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCarManufacturer">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtManufactureYear">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtManufactureYearFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtSeatCount">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtSeatCountFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtModelNumber">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtSerialNumber">
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkboxAvailability">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="set as available"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSave">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save car info"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSaveActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMaintenanceExpired">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Is the car maintenance expired ?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkboxExpired">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="set as expired"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCity">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter the city :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCity">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblOr">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Lucida Grande" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="OR"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFileLocation">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Browse the file location: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnBrowse">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Browse"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBrowseActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtFileUploadLocation">
+    </Component>
+  </SubComponents>
+</Form>
