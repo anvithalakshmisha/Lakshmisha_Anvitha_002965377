@@ -666,7 +666,6 @@ public class OverviewJPanel extends javax.swing.JPanel {
                 vitalhist = patient.getEncounterHistory();
             }
             panelForDisplay(jPanel2);
-//            populateEncounterTable(patient);
         }
 
     }//GEN-LAST:event_btnAddVitalsActionPerformed
@@ -1081,14 +1080,7 @@ public class OverviewJPanel extends javax.swing.JPanel {
         for (Patient p : patientDir.getPatientList()) {
             System.out.println(p);
             if (p.getEncounterHistory() != null) {
-                System.out.println(p.getEncounterHistory());
                 for (Encounter e : p.getEncounterHistory().getEncounterList()) {
-                    System.out.println(e.getVitalSign().getBloodOxygenLevel());
-                    System.out.println(e.getVitalSign().getTemperature());
-                    System.out.println(e.getVitalSign().getBloodPressureDiastolic());
-                    System.out.println(e.getVitalSign().getBloodPressureSystolic());
-                    
-                    
                     if (e.getVitalSign().getBloodOxygenLevel() < 94 | e.getVitalSign().getTemperature() > 98 | e.getVitalSign().getBloodPressureSystolic() > 120 | e.getVitalSign().getBloodPressureDiastolic() < 80) {
                         AbnormalClass abnormal = new AbnormalClass();
                         abnormal.setName(p.getPerson().getName());
@@ -1103,10 +1095,7 @@ public class OverviewJPanel extends javax.swing.JPanel {
         DefaultTableModel model = (DefaultTableModel) tblAbnormalities.getModel();
         model.setRowCount(0);
         Set<AbnormalClass> set = new HashSet<>();
-
-        // Iterate through the array
         for (AbnormalClass t : ab) {
-            // Add each element into the set
             set.add(t);
         }
         if (set != null) {
@@ -1114,7 +1103,6 @@ public class OverviewJPanel extends javax.swing.JPanel {
                 Object row[] = new Object[2];
                 row[0] = a.getCommunity();
                 row[1] = a.getName();
-//                row[2] = a.getAbnormalities();
                 model.addRow(row);
             }
         }
